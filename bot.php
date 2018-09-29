@@ -12,9 +12,9 @@ $kuning="\033[1;33m";
 //flag
 print"$ijo
 ======================================================\n__     _______ _____ _   _ 
-\ \   / / ____| ____| | | | create by: Shadow Bot
- \ \ / /|  _| |  _| | | | | jika tidak keberatan
-  \ V / | |___| |___| |_| | masukan kode invite: AKX8A1J0
+\ \   / / ____| ____| | | | @author : Shadow Bot
+ \ \ / /|  _| |  _| | | | | Subscribe Channel gw yak:)
+  \ V / | |___| |___| |_| | 
    \_/  |_____|_____|\___/\n ======================================================\n$putih";
 //link
 $link = "https://www.veeuapp.com/v1.0/incentive/tasks?access_token=".$access_token;
