@@ -23,10 +23,10 @@ echo $pink."Jumlah ?\nInput : $kuning";
 $jumlah = trim(fgets(STDIN));
 echo $pink."Jeda ?(ex:0)\nInput : $kuning";
 $wait = trim(fgets(STDIN));
-
-echo $biru."[>]".$white." Bot Akan Jalan Dalam 5 Detik ...\n\n";
+echo"\n";
+echo $biru."[>]".$putih." Bot Akan Jalan Dalam 5 Detik ...\n\n";
 sleep(5);
-echo $pink."HAPPY NUYUL ^_^\n\n";
+echo $ijo."HAPPY NUYUL ^_^\n\n";
 sleep(1);
 
 $i=0;
@@ -35,10 +35,10 @@ while($i<$jumlah){
   $i++;
   flush();
 	
-echo "$turkis [+] $white Coin => $ijo $coin";
+echo "$turkis [$kuning+$turkis] $putih Coin => $ijo $coin";
 $coin=coin($token,$jumlah,$wait);
 	
-echo "$turkis [+] $white Penghasilan => $ijo $cash";
+echo "$turkis [$kuning+$turkis] $putih Penghasilan => $ijo $cash";
 $cash=cash($token,$jumlah,$wait);
 	
  }
