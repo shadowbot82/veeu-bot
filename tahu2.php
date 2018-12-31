@@ -32,7 +32,7 @@ while($i<$jumlah){
 	
 $coin = coin($token,$jumlah,$wait);
 $cash = cash($token,$jumlah,$wait);
-
+echo $white."Coin => $turkis $coin".$ijo."||".$white." Penghasilan => $turkis $cash\n";
 	
  }
 
