@@ -30,8 +30,9 @@ while($i<$jumlah){
   $i++;
   flush();
 	
-echo $turkis."[+]".$white."Coin => $ijo $coin = coin($token,$jumlah,$wait)".$turkis." || ";
-echo $turkis."Penghasilan => $ijo $cash = cash($token,$jumlah,$wait)\n";
+echo $turkis."[+]".$white."Coin => $ijo $coin ="
+	.$turkis." || ";
+echo $turkis."Penghasilan => $ijo $cash\n";
 
 	
  }
