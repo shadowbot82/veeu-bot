@@ -19,8 +19,7 @@ echo $ijo."[+]===========================================[+]\n\n";
 
 echo $pink."Token : $kuning";
 $token = trim(fgets(STDIN));
-echo $pink."Device Id : $kuning";
-$device_id = trim(fgets(STDIN));
+
 echo $pink."Jumlah : $kuning";
 $jumlah = trim(fgets(STDIN));
 echo $pink."Jeda ?(ex:0)\nInput : $kuning";
@@ -43,7 +42,7 @@ $coin=coin($token,$jumlah,$wait);
 echo "$turkis [$kuning+$turkis] $putih Penghasilan =>$ijo $cash";
 $cash=cash($token,$jumlah,$wait);
 	
-echo "$kuning ===================================\n";
+echo "$kuning ======================================\n";
  }
 
 function coin($token,$jumlah,$wait) {
