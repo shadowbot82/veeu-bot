@@ -30,7 +30,9 @@ while($i<$jumlah){
   $i++;
   flush();
 	
-$submit = cash($token,$jumlah,$wait);
+$coin = coin($token,$jumlah,$wait);
+$cash = cash($token,$jumlah,$wait);
+
 	
  }
 
