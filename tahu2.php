@@ -36,10 +36,10 @@ while($i<$jumlah){
   $i++;
   flush();
 	
-echo "$turkis [$kuning+$turkis] $putih Coin =>$ijo $coin";
+echo "$turkis [$kuning+$turkis]$putih Coin =>$ijo $coin";
 $coin=coin($token,$jumlah,$wait);
 	
-echo "$turkis [$kuning+$turkis] $putih Penghasilan =>$ijo $cash";
+echo "$turkis [$kuning+$turkis]$putih Penghasilan =>$ijo $cash";
 $cash=cash($token,$jumlah,$wait);
 	
 echo "$kuning =================================================\n\n";
