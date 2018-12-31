@@ -88,8 +88,8 @@ function diamond($token,$device_id,$jumlah,$wait){
 
   curl_setopt($ch, CURLOPT_URL, "https://api.indkota.com/System/Invite/rewarded_video");
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-  curl_setopt($ch, CURLOPT_POSTFIELDS, 
-"member_token='.$token.'&device_id=$device_id");
+  curl_setopt($ch, CURLOPT_POSTFIELDS,"member_token='.$token.'&device_id=$device_id");
+
   curl_setopt($ch, CURLOPT_POST, 1);
   curl_setopt($ch, CURLOPT_ENCODING, 'gzip, deflate');
 
@@ -104,7 +104,7 @@ function diamond($token,$device_id,$jumlah,$wait){
   curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
   $result = curl_exec($ch);
-  if (curl_errno($ch)) {
+  if (curl_error($ch)) {
       echo 'Error:' . curl_error($ch);
   }
   curl_close ($ch);
