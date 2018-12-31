@@ -42,7 +42,7 @@ $coin=coin($token,$jumlah,$wait);
 echo "$turkis [$kuning+$turkis] $putih Penghasilan =>$ijo $cash";
 $cash=cash($token,$jumlah,$wait);
 	
-echo "$kuning ======================================\n";
+echo "$kuning ================================================\n";
  }
 
 function coin($token,$jumlah,$wait) {
