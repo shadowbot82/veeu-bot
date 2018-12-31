@@ -19,6 +19,8 @@ echo $ijo."[+]===========================================[+]\n\n";
 
 echo $pink."Token : $kuning";
 $token = trim(fgets(STDIN));
+echo $pink."Device Id : $kuning";
+$device_id = trim(fgets(STDIN));
 echo $pink."Jumlah : $kuning";
 $jumlah = trim(fgets(STDIN));
 echo $pink."Jeda ?(ex:0)\nInput : $kuning";
@@ -40,6 +42,9 @@ $coin=coin($token,$jumlah,$wait);
 	
 echo "$turkis [$kuning+$turkis] $putih Penghasilan =>$ijo $cash";
 $cash=cash($token,$jumlah,$wait);
+	
+echo "$turkis [$kuning+$turkis] $putih Diamond =>$ijo $diamond";
+$diamond=diamond($token,$device_id,$jumlah,$wait);
 	
  }
 
@@ -78,7 +83,7 @@ sleep($wait);
 $i++;
 flush(); } 
 
-function diamond($token,$jumlah,$wait){
+function diamond($token,$device_id,$jumlah,$wait){
   $ch = curl_init();
 
   curl_setopt($ch, CURLOPT_URL, "https://api.indkota.com/System/Invite/rewarded_video");
@@ -105,5 +110,7 @@ function diamond($token,$jumlah,$wait){
   curl_close ($ch);
 sleep($wait);
 	
-
+$i++;
+flush();}
+	
 ?>
