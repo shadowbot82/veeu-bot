@@ -17,12 +17,17 @@ echo $biru."  |_|_/  \_\| |_|_____| $turkis YT : SHADOW BOT CHANNEL\n";
 echo $ijo."[+]==========================================[+]\n\n";
     
 
-echo "Token ?\nInput : ";
+echo $pink."Token ?\nInput : $kuning";
 $token = trim(fgets(STDIN));
-echo "Jumlah ?\nInput : ";
+echo $pink."Jumlah ?\nInput : $kuning";
 $jumlah = trim(fgets(STDIN));
-echo "Jeda ?(ex:0)\nInput : ";
+echo $pink."Jeda ?(ex:0)\nInput : $kuning";
 $wait = trim(fgets(STDIN));
+
+echo $biru."[>]".$white." Bot Akan Jalan Dalam 5 Detik ...\n\n";
+sleep(5);
+echo $pink."HAPPY NUYUL ^_^\n\n";
+sleep(1);
 
 $i=0;
 while($i<$jumlah){
@@ -30,9 +35,10 @@ while($i<$jumlah){
   $i++;
   flush();
 	
-echo $turkis."[+]".$white."Coin => $ijo $coin";
+echo "$turkis [+] $white Coin => $ijo $coin";
 $coin=coin($token,$jumlah,$wait);
-echo $turkis."Penghasilan => $ijo $cash\n";
+	
+echo "$turkis [+] $white Penghasilan => $ijo $cash";
 $cash=cash($token,$jumlah,$wait);
 	
  }
