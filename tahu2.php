@@ -9,12 +9,12 @@ $kuning="\033[1;33m";
 
 //flag
 
-echo $ijo."[+]==========================================[+]\n";
+echo $ijo."[+]===========================================[+]\n";
 echo $turkis." _____  _  _   _ _   _  $red BOT TAHU VIP+\n";
 echo $pink."|__ __/  \| |_| | | | | $kuning Happy New Year 2019\n";
 echo $red."  | |/ _  \  _  | |_| | $ijo Created By : Shadow Bot\n";
 echo $biru."  |_|_/  \_\| |_|_____| $turkis YT : SHADOW BOT CHANNEL\n";
-echo $ijo."[+]==========================================[+]\n\n";
+echo $ijo."[+]===========================================[+]\n\n";
     
 
 echo $pink."Token ?\nInput : $kuning";
@@ -35,10 +35,10 @@ while($i<$jumlah){
   $i++;
   flush();
 	
-echo "$turkis [$kuning+$turkis] $putih Coin => $ijo $coin";
+echo "$turkis [$kuning+$turkis] $putih Coin =>$ijo $coin";
 $coin=coin($token,$jumlah,$wait);
 	
-echo "$turkis [$kuning+$turkis] $putih Penghasilan => $ijo $cash";
+echo "$turkis [$kuning+$turkis] $putih Penghasilan =>$ijo $cash";
 $cash=cash($token,$jumlah,$wait);
 	
  }
