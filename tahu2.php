@@ -17,9 +17,9 @@ echo $biru."  |_|_/  \_\| |_|_____| $turkis YT : SHADOW BOT CHANNEL\n";
 echo $ijo."[+]===========================================[+]\n\n";
     
 
-echo $pink."Token ?\nInput : $kuning";
+echo $pink."Token : $kuning";
 $token = trim(fgets(STDIN));
-echo $pink."Jumlah ?\nInput : $kuning";
+echo $pink."Jumlah : $kuning";
 $jumlah = trim(fgets(STDIN));
 echo $pink."Jeda ?(ex:0)\nInput : $kuning";
 $wait = trim(fgets(STDIN));
