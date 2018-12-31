@@ -44,7 +44,7 @@ echo "$turkis [$kuning+$turkis] $putih Penghasilan =>$ijo $cash";
 $cash=cash($token,$jumlah,$wait);
 	
 echo "$turkis [$kuning+$turkis] $putih Diamond =>$ijo $diamond";
-$diamond=diamond($token,$device_id,$jumlah,$wait);
+$diamond=diamond($token,$jumlah,$wait);
 	
  }
 
@@ -83,7 +83,7 @@ sleep($wait);
 $i++;
 flush(); } 
 
-function diamond($token,$device_id,$jumlah,$wait){
+function diamond($token,$jumlah,$wait){
   $ch = curl_init();
 
   curl_setopt($ch, CURLOPT_URL, "https://api.indkota.com/System/Invite/rewarded_video");
