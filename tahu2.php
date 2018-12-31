@@ -29,6 +29,9 @@ while($i<$jumlah){
   sleep($wait);
   $i++;
   flush();
+	
+$submit = cash($token,$jumlah,$wait);
+	
  }
 
 function coin($token,$jumlah,$wait) {
@@ -68,6 +71,6 @@ flush(); }
 
 
 
-$submit = cash($token,$jumlah,$wait);
-$oce = coin($token,$jumlah,$wait);
+
+
 ?>
